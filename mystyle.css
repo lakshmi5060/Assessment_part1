@@ -1,0 +1,42 @@
+/* Styles for the heading */
+h1 {
+    text-align: center; /* Centers the text */
+  }
+  
+  /* Styles for the container holding the gallery */
+  div.container {
+    margin: auto; /* Centers the container horizontally */
+    border-style: solid; 
+    border: 2px solid #0C0DF0; 
+    width: 775px; 
+    height: 295px; 
+  }
+  
+  /* Styles for each gallery item */
+  div.gallery {
+    margin: 5px; /* Adds margin around each gallery item */
+    border: 2px solid #0C0DF0; 
+    float: left; /* Floats gallery items to the left */
+    width: 180px; 
+  }
+  
+  /* Hover styles for gallery items */
+  div.gallery:hover {
+    border-color: red; 
+  }
+  
+  /* Styles for images inside gallery items */
+  div.gallery img {
+    width: 100%; /* Makes images fill their container */
+    height: auto; 
+  }
+  
+  /* Styles for the description text */
+  div.data {
+    padding: 15px; /* Adds padding around the text */
+    text-align: center; 
+    font-family: Verdana, sans-serif; /* Font family */
+    font-size: 18px; /* Font size */
+    color: black; /* Text color */
+  }
+   
